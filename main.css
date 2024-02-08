@@ -62,7 +62,7 @@ body {
 }
 
 .btn-controller{
-  display: flex;
+  display: none;
   margin-top: 40px;
   width: 85%;
   flex-direction: column;
@@ -97,6 +97,9 @@ body {
 
 
 @media screen and (max-width: 500px) {
+  .btn-controller{
+    display: flex;
+  }
   .modal{
     width: 305px;
     height: 304px;
